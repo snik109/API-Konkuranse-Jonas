@@ -56,7 +56,7 @@ export default function CreateItem() {
                 className="form-input"
                 placeholder="Year"
                 value={year}
-                onChange={(e) => setYear(e.target.value)}
+                onChange={(e) => setYear(parseInt(e.target.value))}
                 required
             />
 
